@@ -1,0 +1,91 @@
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+  margin-bottom: 30px;
+}
+
+.site-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.site-brand__title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 0.3px;
+  color: #1b2b4f;
+}
+
+.site-brand__home {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-brand__pill {
+  font-size: 14px;
+  padding: 9px 15px;
+  border-radius: 999px;
+  border: 1px solid #ccdaf6;
+  background: #eef4ff;
+  color: #31589f;
+}
+
+.site-brand__sub {
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.55;
+  max-width: 52ch;
+}
+
+.site-nav {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.site-nav .kbd {
+  padding: 14px 22px;
+  font-size: 15px;
+  border-radius: 999px;
+}
+
+@media (max-width: 720px) {
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 18px;
+  }
+
+  .site-brand__title {
+    font-size: 26px;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .site-brand__pill {
+    padding: 7px 11px;
+    font-size: 12px;
+  }
+
+  .site-brand__sub {
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 100%;
+  }
+
+  .site-nav {
+    gap: 10px;
+  }
+
+  .site-nav .kbd {
+    padding: 11px 15px;
+    font-size: 13px;
+  }
+}
