@@ -3,6 +3,9 @@
 一个基于 Next.js 的娱乐向人格测试项目。
 
 LBTI 不做心理诊断，重点是用更生活化的题目，观察你在社交、情绪、行动和自我管理里的决策倾向，并生成人格结果卡。
+<img width="2560" height="1397" alt="image" src="https://github.com/user-attachments/assets/21f7561e-cb77-4b53-a84b-9bbbae629447" />
+<img width="2560" height="1397" alt="image" src="https://github.com/user-attachments/assets/20684f81-6da0-47ec-aacb-cff216355e3a" />
+
 
 ## 功能概览
 
